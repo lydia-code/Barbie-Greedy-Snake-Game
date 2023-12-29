@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(224, 33, 138);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#myCanvas {
+  border: 3px double silver;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#myScore,
+#myScore2 {
+  color: white;
+  font-size: 1.5rem;
+  padding: 10px;
+  margin-top: 1rem;
+}
+
+#Start {
+  padding: 0.25rem 0.5rem;
+  background-color: white;
+  color: rgb(224, 33, 138);
+  font-size: 1.15rem;
+  display: block;
+  margin-top: 15px;
+  border-radius: 30%;
+}
+
+#myImg {
+  height: 121.6px;
+  width: 216px;
+  margin: 30px;
+}
